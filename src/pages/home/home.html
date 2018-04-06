@@ -1,10 +1,27 @@
 <ion-header>
-  <ion-navbar>
-    <ion-title>Home</ion-title>
+  <ion-navbar class="navbar">
+    <ion-title>
+      <p class="school-name">ZS 1 Bochnia</p>
+      <div class="school-logo" margin></div>
+    </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h2>NUMEREK</h2>
-  <div>{{numerek}}</div>
+<ion-content>
+  <div class="container" margin>
+    <div class="number-block">
+      <p class="text1">Numerek niepytany na</p>
+      <p class="text1">dzisiaj:</p>
+      <p class="random-number">5</p>
+      <p class="date">Środa : 20-12-2017</p>
+    </div>
+    
+    <div class="refresh">
+    </div>
+    
+    <div class="timer">
+      <p class="text2">Następne losowanie numerka za:</p>
+      <p class="time">03h : 12m : 34s</p>
+    </div>
+  </div>
 </ion-content>
