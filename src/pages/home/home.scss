@@ -1,22 +1,26 @@
 @font-face {
-    font-family: Aleo;
+  font-family: Aleo;
 	src: url(fonts/Aleo.otf);
 }
+
 .navbar {
-    box-shadow: 0 1px 1px #333302;
+  box-shadow: 0 1px 1px #333302;
 }
+
 .school-name {
-    display: block;
-    float: left;
-    position: relative;
-    top: 10px;
+  display: block;
+  float: left;
+  position: relative;
+  top: 10px;
 }
+
 .school-logo {
-    width: 50px;
-    height: 50px;
-    float: right;
-    background: blue;
+  width: 50px;
+  height: 50px;
+  float: right;
+  background: blue;
 }
+
 .number-block {
 	width: 250px;
 	height: 270px;
@@ -27,23 +31,26 @@
 	position: relative;
 	top: 10px;
 }
+
 .text1 {
 	text-align: center;
 	font-size: 20px;
 	color: #ff0;
 	font-family: Aleo;
-    line-height: 10px;
+  line-height: 10px;
 }
+
 .random-number {
 	font-size: 130px;
 	text-shadow: -2px 0 4px #000, 0 2px 4px #000, 2px 0 4px #000, 0 -2px  4px #000, 0 0px 10px #fff;
 	color: #fff;
 	font-family: Aleo;
-    line-height: 5px;
+  line-height: 5px;
 	text-align: center;
-    position: relative;
+  position: relative;
 	top: -50px;
 }
+
 .date {
 	text-align: center;
 	font-size: 20px;
@@ -53,14 +60,16 @@
 	top: -90px;
     line-height: 0;
 }
+
 .refresh {
 	width: 45px;
-    height: 45px;
-    background: blue;
+  height: 45px;
+  background: blue;
 	margin: auto;
 	position: relative;
 	top: 40px;
 }
+
 .timer {
 	width: 300px;
 	height: 50px;
@@ -68,17 +77,19 @@
 	position: relative;
 	top: 50px;
 }
+
 .text2 {
 	font-size: 20px;
 	color: #fff;
 	font-family: Aleo;
 	text-align: center;
-    line-height: 5px;
+  line-height: 5px;
 }
+
 .time {
 	font-size: 20px;
 	color: #fff;
 	font-family: Aleo;
 	text-align: center;
-    line-height: 5px;
+  line-height: 5px;
 }
